@@ -1,7 +1,6 @@
 class CheckController < ApplicationController
   def create
-    json = JSON.parse(params.body.read)
-    puts(json)
+    json = params
 
     render json: {
         message: 'test',
