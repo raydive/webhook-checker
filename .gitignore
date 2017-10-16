@@ -19,3 +19,4 @@ tmp/*
 !/tmp/.keep
 
 .byebug_history
+*.*~
